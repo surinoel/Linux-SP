@@ -15,7 +15,7 @@ int write_append(void) {
     return 0;
 }
 
-int main(void) {
+int main(int argc, char **argv) {
     write_append();
     return 0;
 }
