@@ -10,6 +10,8 @@ int write_data(void) {
     }
 
     fputs("hello world!\n", fp);
+    
+    fclose(fp);
     return 0;
 }
 
