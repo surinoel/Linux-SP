@@ -26,7 +26,7 @@ static int write_file(void) {
 
 int main(int argc, char **argv) {
     if(write_file()) {
-        perror("file error\n");
+        perror("write error\n");
         return -1;
     }
     return 0;
