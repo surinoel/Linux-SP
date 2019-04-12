@@ -1,5 +1,9 @@
 /*
- 디렉토리의 파일 다루기
+man 3 opendir
+man 3 readdir
+man 3 closedir
+
+디렉토리의 파일 다루기
  DIR *opendir(const char *name);
 
  파라미터
@@ -57,7 +61,7 @@ int main(int argc, char **argv) {
     DIR *dp;
     struct dirent *entry;
 
-    dp = opendir("."); // 현재 디렉토리
+    dp = opendir(".");
     if(dp == NULL) {
         printf("opendir() fail\n");
         return -1;
