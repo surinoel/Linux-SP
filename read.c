@@ -18,6 +18,7 @@ int read_data(void) {
         printf("%s", buf);
     } 
     
+    fclose(fp);
     return 0;
 }
 
