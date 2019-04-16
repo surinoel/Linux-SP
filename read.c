@@ -19,10 +19,10 @@ int read_data(void) {
     } 
     
     fclose(fp);
-    return 0;
+    return 0
 }
 
-int main(void) {
+int main(int argc, char **argv) {
     if(read_data()) {
         printf("read data error\n");
         return -1;
