@@ -16,7 +16,8 @@ int append_data(void) {
 
 int main(int argc, char **argv) {
     if(append_data()) {
-
+        printf("append data error\n");
+        return -1;
     }
     return 0;
 }
