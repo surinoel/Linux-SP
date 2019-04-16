@@ -24,7 +24,7 @@ int find_offset(void) {
     return 0;
 }
 
-int main(void) {
+int main(int argc, char **argv) {
     if(find_offset()) {
         printf("find offset error\n");
         return -1;
