@@ -31,7 +31,7 @@ int main(void) {
         cur_cpu = 0;
     }
     CPU_ZERO(&mask);
-    CPU_ISSET(cur_cpu, &mask);
+    CPU_SET(cur_cpu, &mask);
     sched_setaffinity(getpid(), sizeof(cpu_set_t), &mask);
     
     sleep(1);
