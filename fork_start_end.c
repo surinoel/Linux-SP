@@ -27,8 +27,10 @@ int main(int argc, char **argv) {
 
 
 #if 0
+
 It is parent process
 It is child process
 child process exited normally
 fork end...
+    
 #endif
